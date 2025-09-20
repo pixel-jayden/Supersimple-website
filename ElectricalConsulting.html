@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ElectroConsult — Electrical & Consulting Services</title>
+  <meta name="description" content="ElectroConsult: Professional electrical and consulting services in Potchefstroom. Fast, reliable, and certified solutions for homes and businesses." />
+  <meta name="keywords" content="electrical, consulting, wiring, installation, maintenance, energy audit, certified electrician" />
+  <meta name="theme-color" content="#0b3a70" />  
+
+  <!-- Open Graph & Twitter Card -->
+  <meta property="og:title" content="ElectroConsult — Electrical & Consulting Services" />
+  <meta property="og:description" content="Certified electrical and consulting services in Potchefstroom for homes and businesses." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/assets/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />  
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Electrician",
+    "name": "ElectroConsult",
+    "image": "https://example.com/assets/logo.png",
+    "@id": "https://example.com",
+    "url": "https://example.com",
+    "telephone": "+27-10-555-0123",
+    "priceRange": "R - RRR",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "123 Main St",
+      "addressLocality": "Potchefstroom",
+      "addressRegion": "NW",
+      "postalCode": "2531",
+      "addressCountry": "ZA"
+    },
+    "openingHours": "Mo,Tu,We,Th,Fr 08:00-18:00",
+    "sameAs": ["https://facebook.com/electroconsult","https://instagram.com/electroconsult"]
+  }
+  </script>
+
+  <style>
+    :root{
+      --accent:#0b3a70;
+      --accent-2:#0e65a0;
+      --muted:#6b7280;
+      --bg:#f7faf9;
+      --card:#ffffff;
+      --radius:14px;
+      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    html { scroll-behavior: smooth; }
+    body{margin:0;background:var(--bg);color:#111;}
+    header, footer{background:var(--accent);color:white;padding:14px 0;}
+    a{color:var(--accent);text-decoration:none;}
+    a:hover{opacity:0.85;}
+    .container{width:90%;max-width:1100px;margin:auto;}
+    .nav{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;}
+    nav ul{display:flex;gap:18px;list-style:none;padding:0;margin:0;flex-wrap:wrap;}
+    nav a{color:white;font-weight:500;}
+    .cta{background:white;color:var(--accent);padding:8px 14px;border-radius:12px;font-weight:700;}
+    h1,h2,h3,h4{margin:8px 0;}
+    .lead{font-size:16px;color:#111;}
+    .features{display:flex;gap:12px;margin-top:12px;flex-wrap:wrap;}
+    .feature{background:var(--accent-2);color:white;padding:6px 12px;border-radius:8px;font-size:14px;}
+    .card{background:white;padding:16px;border-radius:var(--radius);box-shadow:0 2px 8px rgba(0,0,0,0.08);}
+    .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;}
+    .service-item{padding:14px;background:white;border-radius:var(--radius);box-shadow:0 2px 6px rgba(0,0,0,0.06);}
+    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;}
+    .primary{background:var(--accent);color:white;padding:10px 16px;border-radius:12px;font-weight:700;transition:0.3s;}
+    .primary:hover{background:#094070;}
+    .secondary{border:1px solid var(--accent);padding:10px 16px;border-radius:12px;background:none;color:var(--accent);font-weight:700;transition:0.3s;}
+    .secondary:hover{background:var(--accent);color:white;}
+    footer{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;}
+    .hero{display:flex;gap:20px;flex-wrap:wrap;align-items:flex-start;}
+    .hero > div{flex:1;min-width:280px;}
+    .hero aside{flex:0 0 320px;}
+    @media(max-width:768px){
+      .hero{flex-direction:column;}
+      .hero aside{width:100%;}
+    }
+    .field{margin-bottom:12px;display:flex;flex-direction:column;}
+    input, textarea, select{padding:8px;border-radius:8px;border:1px solid #ccc;font-family:inherit;font-size:14px;}
+  </style>
+</head>
+<body>
+
+<header role="banner">
+  <div class="container nav">
+    <div class="brand" aria-label="ElectroConsult brand">
+      <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='96' height='96'><rect rx='18' width='96' height='96' fill='%230b3a70'/><path d='M20 60 Q40 20 68 60' stroke='white' stroke-width='6' fill='none' stroke-linecap='round'/></svg>" alt="ElectroConsult logo"/>
+      <div>
+        <div style="font-weight:800">ElectroConsult</div>
+        <div style="font-size:12px;color:rgba(255,255,255,0.9)">Reliable. Certified. Local.</div>
+      </div>
+    </div>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="row">
+      <a class="cta" href="#booking">Book Now</a>
+    </div>
+  </div>
+</header>
+
+<main role="main">
+<section class="container hero" id="home">
+  <div>
+    <span class="eyebrow">Certified • 24/7 Support</span>
+    <h1>Professional Electrical & Consulting Services in Potchefstroom</h1>
+    <p class="lead">ElectroConsult provides reliable electrical repairs, installations, energy audits, and consulting for homes and businesses. Transparent pricing and guaranteed work.</p>
+    <div class="features">
+      <div class="feature">Certified Electricians</div>
+      <div class="feature">Quick Response</div>
+      <div class="feature">Trusted Solutions</div>
+    </div>
+    <div style="margin-top:18px;display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+      <a class="primary" href="#booking">Book Service</a>
+      <a href="#pricing" class="secondary">View Pricing</a>
+    </div>
+  </div>
+
+  <aside class="card booking" id="booking">
+    <h3>Request a Quote</h3>
+    <form id="bookingForm" action="/submit-booking" method="POST" novalidate>
+      <div class="field">
+        <label for="name">Full name</label>
+        <input id="name" name="name" required aria-required="true" placeholder="Jane Doe" />
+      </div>
+      <div class="field">
+        <label for="phone">Phone</label>
+        <input id="phone" name="phone" type="tel" pattern="^\+27\d{9}$" required placeholder="+27105550123" aria-required="true"/>
+      </div>
+      <div class="field">
+        <label for="service">Service required</label>
+        <select id="service" name="service">
+          <option>Electrical repair</option>
+          <option>New wiring / installation</option>
+          <option>Energy audit / consulting</option>
+          <option>Safety inspection</option>
+          <option>Commercial electrical contract</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="note">Address / notes</label>
+        <textarea id="note" name="note" rows="3" placeholder="Address, best arrival time"></textarea>
+      </div>
+      <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+        <button class="primary" type="submit">Request Quote</button>
+        <button type="button" class="secondary" id="callBtn">Call Now</button>
+      </div>
+    </form>
+    <p style="margin-top:12px;font-size:13px;color:var(--muted)">We aim to respond within 30 minutes for urgent requests.</p>
+  </aside>
+</section>
+
+<section class="container" id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <article class="service-item">
+      <h4>Electrical Repairs</h4>
+      <p>Quick and safe repair of faulty wiring, outlets, switches, and circuit breakers.</p>
+    </article>
+    <article class="service-item">
+      <h4>Installations</h4>
+      <p>Lighting, wiring, and full electrical system installations for homes and businesses.</p>
+    </article>
+    <article class="service-item">
+      <h4>Energy Audit & Consulting</h4>
+      <p>Professional assessments to reduce energy costs and ensure compliance with safety regulations.</p>
+    </article>
+    <article class="service-item">
+      <h4>Safety Inspections</h4>
+      <p>Inspections to prevent hazards and guarantee safe electrical systems.</p>
+    </article>
+    <article class="service-item">
+      <h4>Commercial Contracts</h4>
+      <p>Priority maintenance and support plans for commercial clients.</p>
+    </article>
+  </div>
+</section>
+
+<section class="container" id="pricing">
+  <h2>Transparent Pricing</h2>
+  <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:12px">
+    <div class="card" style="flex:1;min-width:220px">
+      <h3>Call-out & Diagnosis</h3>
+      <p style="color:var(--muted)">Fixed fee for arrival + assessment</p>
+      <div style="font-size:22px;font-weight:800;margin-top:8px">R400</div>
+    </div>
+    <div class="card" style="flex:1;min-width:220px">
+      <h3>Basic Electrical Repairs</h3>
+      <p style="color:var(--muted)">Small wiring, switches, and outlets</p>
+      <div style="font-size:22px;font-weight:800;margin-top:8px">From R600</div>
+    </div>
+    <div class="card" style="flex:1;min-width:220px">
+      <h3>Consulting / Audit</h3>
+      <p style="color:var(--muted)">Energy assessment and safety inspection</p>
+      <div style="font-size:22px;font-weight:800;margin-top:8px">From R800</div>
+    </div>
+  </div>
+</section>
+
+<section class="container" id="gallery">
+  <h2>Our Work</h2>
+  <div class="gallery">
+    <img src="https://lh3.googleusercontent.com/p/AF1QipOA4qhk77p6k7HScbH6NMlLynYaYxOem6MgZ9LN=s1360-w1360-h1020-rw" width="300" height="200" alt="Electrical work 1"/>
+    <img src="https://lh3.googleusercontent.com/p/AF1QipP1ER5ediZalYX91JyV38yABPlQU3TV0x-qL5ve=s1360-w1360-h1020-rw" width="300" height="200" alt="Electrical work 2"/>
+    <img src="https://lh3.googleusercontent.com/p/AF1QipPx6WVBHDGFpGsHHYZ_dEFFYl8ld1ekvfxSdPuW=s1360-w1360-h1020-rw" width="300" height="200" alt="Electrical work 3"/>
+    <img src="https://lh3.googleusercontent.com/p/AF1QipOxupFYsHMcWIOfVapit4HxEI6OH9JpRkXNOOhE=s1360-w1360-h1020-rw" width="300" height="200" alt="Electrical work 4"/>
+  </div>
+</section>
+
+<section class="container" id="contact">
+  <h2>Contact & Location</h2>
+  <div style="display:grid;grid-template-columns:1fr 360px;gap:18px;align-items:start">
+    <div>
+      <p style="color:var(--muted)">Call or email us for quotes or consultations.</p>
+      <p><strong>Phone:</strong> 072 901 9182</p>
+      <p><strong>Email:</strong> hello@electroconsult.example</p>
+
+      <h4>Service area</h4>
+      <p style="color:var(--muted)">Potchefstroom & surrounding areas — residential and commercial.</p>
+
+      <h4>Get directions</h4>
+      <div class="card" style="height:300px;display:flex;align-items:center;justify-content:center;color:var(--muted)">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40911.83709322894!2d27.022458521679688!3d-26.712204599999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e96813b23c0c237%3A0x59ee864a51daf99f!2sSentraleq%20Electrical%20%26%20Consulting!5e1!3m2!1sen!2sza!4v1758365204864!5m2!1sen!2sza" width="700" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+
+    <aside class="card">
+      <h3>Quick Contact</h3>
+      <form id="contactForm" novalidate>
+        <div class="field"><label for="cname">Name</label><input id="cname" required></div>
+        <div class="field"><label for="cphone">Phone</label><input id="cphone" required></div>
+        <div class="field"><label for="cmsg">Message</label><textarea id="cmsg" rows="3"></textarea></div>
+        <button class="primary" type="submit">Send Message</button>
+      </form>
+    </aside>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div>
+      <div style="font-weight:800">ElectroConsult</div>
+      <div style="font-size:14px;color:rgba(255,255,255,0.9)">Certified electrical & consulting services • +27 10 555 0123</div>
+      <div style="margin-top:12px;font-size:13px;color:rgba(255,255,255,0.9)">© <span id="yr"></span> ElectroConsult. All rights reserved.</div>
+    </div>
+    <div style="text-align:right;min-width:200px">
+      <div style="margin-bottom:12px">Follow us</div>
+      <div style="display:flex;gap:8px;justify-content:flex-end">
+        <a href="#" aria-label="facebook">Facebook</a>
+        <a href="#" aria-label="instagram">Instagram</a>
+        <a href="#" aria-label="twitter">Twitter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("yr").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
